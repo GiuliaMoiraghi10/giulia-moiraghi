@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #EAB899, #D470B2);
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
