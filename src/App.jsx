@@ -1,14 +1,23 @@
 import React from 'react'
-import giulia from './assets/giulia.png'
+import './index.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import ProjectPage from './pages/ProjectPage'
+import ContactPage from './pages/ContactPage'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1 className='text-xl'>Ciao, sono Giulia!</h1>
-        <img src={giulia} alt="" />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<HomePage />} ></Route>
+          <Route path='/about' element={<AboutPage />} ></Route>
+          <Route path='/portfolio' element={<ProjectPage />} ></Route>
+          <Route path='/contact' element={<ContactPage />} ></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
