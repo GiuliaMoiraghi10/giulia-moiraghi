@@ -7,7 +7,7 @@ export default function Navbar() {
                 <li>
                     <NavLink
                         to='/'
-                        className="text-m font-semibold text-gray-800 hover:text-pink-600 transition-colors"
+                        className="text-m font-semibold text-gray-800 hover:text-white transition-colors"
                     >
                         Home
                     </NavLink>
@@ -15,7 +15,7 @@ export default function Navbar() {
                 <li>
                     <NavLink
                         to='/about'
-                        className="text-m font-semibold text-gray-800 hover:text-pink-600 transition-colors"
+                        className="text-m font-semibold text-gray-800 hover:text-white transition-colors"
                     >
                         Chi è Giulia
                     </NavLink>
@@ -23,7 +23,7 @@ export default function Navbar() {
                 <li>
                     <NavLink
                         to='/portfolio'
-                        className="text-m font-semibold text-gray-800 hover:text-pink-600 transition-colors"
+                        className="text-m font-semibold text-gray-800 hover:text-white transition-colors"
                     >
                         Portfolio
                     </NavLink>
@@ -31,7 +31,7 @@ export default function Navbar() {
                 <li>
                     <NavLink
                         to='/contact'
-                        className="text-m font-semibold text-gray-800 hover:text-pink-600 transition-colors"
+                        className="text-m font-semibold text-gray-800 hover:text-white transition-colors"
                     >
                         Contattami
                     </NavLink>

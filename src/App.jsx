@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ProjectPage from './pages/ProjectPage'
 import ContactPage from './pages/ContactPage'
+import DefaultLayout from './layout/DefaultLayout'
 
 function App() {
 
@@ -12,10 +13,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<HomePage />} ></Route>
-          <Route path='/about' element={<AboutPage />} ></Route>
-          <Route path='/portfolio' element={<ProjectPage />} ></Route>
-          <Route path='/contact' element={<ContactPage />} ></Route>
+          <Route element={<DefaultLayout />}>
+            <Route path='/' element={<HomePage />} ></Route>
+            <Route path='/about' element={<AboutPage />} ></Route>
+            <Route path='/portfolio' element={<ProjectPage />} ></Route>
+            <Route path='/contact' element={<ContactPage />} ></Route>
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
