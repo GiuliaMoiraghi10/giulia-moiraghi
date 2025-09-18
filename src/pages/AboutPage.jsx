@@ -17,6 +17,7 @@ import wordpress from '../assets/wordpress.png';
 import tailwind from '../assets/tailwind.png';
 import bootstrap from '../assets/bootstrap.png';
 import giulia from '../assets/giulia.png'
+import giuliaseduta from '../assets/giuliaseduta.png'
 
 
 export default function AboutPage() {

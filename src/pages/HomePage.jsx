@@ -2,9 +2,16 @@ import { motion } from "framer-motion";
 import logowhite from "../assets/Mio Logo_white.png";
 import { FaLaptopCode, FaMobileAlt, FaPalette, FaRocket } from 'react-icons/fa';
 import Header from "../layout/Header";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePage() {
+
+    const navigate = useNavigate();
+
+    const handleGoToPortfolio = () => {
+        navigate('/portfolio');
+    };
+
     return (
         <>
             <Header />
@@ -34,10 +41,9 @@ export default function HomePage() {
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
                                     className="cursor-pointer px-8 py-3 bg-pink-400 text-white font-semibold rounded-full shadow-lg hover:bg-pink-500 transition-colors"
+                                    onClick={handleGoToPortfolio}
                                 >
-                                    <Link to="/portfolio" className="no-underline text-white">
-                                        I miei Progetti
-                                    </Link>
+                                    I miei Progetti
                                 </motion.button>
                                 <motion.button
                                     whileHover={{ scale: 1.05 }}
@@ -116,7 +122,7 @@ export default function HomePage() {
                             className="bg-white p-8 rounded-xl shadow-lg border border-pink-400/20 hover:border-pink-400 border-5 transition-all duration-300 flex flex-col items-center text-center space-y-4"
                         >
                             <FaLaptopCode className="text-pink-400 text-5xl" />
-                            <h3 className="text-2xl font-bold">Web Design</h3>
+                            <h3 className="text-2xl font-bold">Web Development</h3>
                             <p className="text-gray-600">Design di siti web intuitivi e accattivanti, con attenzione all'esperienza utente.</p>
                         </motion.div>
 
@@ -133,7 +139,7 @@ export default function HomePage() {
                             <p className="text-gray-600">Progettazione di interfacce utente intuitive e un'esperienza utente coinvolgente.</p>
                         </motion.div>
 
-                        {/* Card Servizio 4: Illustrazioni Digitali / Motion Graphics (o altro) */}
+                        {/* Card Servizio 4: Illustrazioni Digitali / Motion Graphics */}
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}

@@ -4,6 +4,7 @@ import behance from "../assets/behance.png";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import email from "../assets/gmail.png"
+import giuliaseduta from '../assets/giuliaseduta.png'
 
 export default function ContactPage() {
     return (
@@ -44,7 +45,7 @@ export default function ContactPage() {
                     className="flex justify-center lg:justify-end"
                 >
                     <motion.img
-                        src={logowhite}
+                        src={giuliaseduta}
                         alt="Logo Giulia"
                         className="w-156 lg:w-172 drop-shadow-[0_0_25px_rgba(255,255,255,0.7)]"
                         animate={{
