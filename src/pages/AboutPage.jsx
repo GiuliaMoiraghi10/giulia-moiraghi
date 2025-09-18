@@ -3,7 +3,7 @@ import logowhite from "../assets/Mio Logo_white.png";
 
 export default function AboutPage() {
     return (
-        <section className="min-h-screen text-white px-8 py-10 flex items-center justify-center">
+        <section className="min-h-100 text-white px-8 py-10 pb-25 flex items-center justify-center">
             <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
                 {/* Testo */}
                 <motion.div
@@ -24,7 +24,7 @@ export default function AboutPage() {
                             uniscono <span className="italic">bellezza</span> e
                             <span className="italic"> funzionalità</span>.
                         </p>
-
+                        <hr />
                         <p>
                             Con più di <span className="font-semibold text-pink-200">10 anni di esperienza</span> nel
                             <span className="font-semibold"> Graphic Design</span> e un forte focus
@@ -43,13 +43,13 @@ export default function AboutPage() {
                             Lavoro con <span className="font-semibold">React.js</span>,
                             <span className="font-semibold"> TypeScript</span>,
                             <span className="font-semibold"> Tailwind</span>,
-                            <span className="font-semibold"> Node.js</span> e <span className="font-semibold">MySQL</span>. Amo in particolare il
-                            <span className="font-semibold text-pink-200"> front-end</span>, dove posso mettere a frutto la mia esperienza in UX/UI design
+                            <span className="font-semibold"> Node.js + Express</span> e <span className="font-semibold">MySQL</span>. Amo in particolare il
+                            <span className="font-semibold text-pink-200"> FrontEnd</span>, dove posso mettere a frutto la mia esperienza in UX/UI design
                             con <span className="font-semibold">Figma</span> e
-                            <span className="font-semibold"> Adobe</span>. Inoltre, ho realizzato siti
-                            con WordPress e Elementor.
+                            <span className="font-semibold"> Adobe</span>. Inoltre, posso realizzare siti
+                            con WordPress e plugin come Elementor.
                         </p>
-
+                        <hr />
                         <p>
                             Ogni progetto è per me l’occasione di dare vita a interfacce
                             <span className="italic"> moderne</span>,

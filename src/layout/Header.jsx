@@ -13,7 +13,7 @@ export default function Header() {
                     <p className='font-style: italic text-xl text-white'>Jr FullStack Web Developer</p>
                 </div>
                 <img className={styles.heroImg} src={giulia} alt="Giulia" />
-            </div>
+            </div >
         </>
     )
 }
