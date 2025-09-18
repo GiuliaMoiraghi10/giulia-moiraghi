@@ -45,13 +45,15 @@ export default function HomePage() {
                                 >
                                     I miei Progetti
                                 </motion.button>
-                                <motion.button
+                                <motion.a
+                                    href="/public/CVGiuliaMoiraghi.pdf"
+                                    download="CVGiuliaMoiraghi.pdf"
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
-                                    className="cursor-pointer px-8 py-3 border-2 border-pink-400 text-white font-semibold rounded-full hover:bg-pink-500 hover:text-white transition-colors"
+                                    className="cursor-pointer px-8 py-3 border-2 border-pink-400 text-white font-semibold rounded-full hover:bg-pink-500 hover:text-white transition-colors text-center"
                                 >
                                     Scarica il mio CV
-                                </motion.button>
+                                </motion.a>
                             </div>
                         </motion.div>
 
