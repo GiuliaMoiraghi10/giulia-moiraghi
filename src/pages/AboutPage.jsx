@@ -58,10 +58,7 @@ export default function AboutPage() {
                             </p>
 
                             <p>
-                                Lavoro con <span className="font-semibold">React.js</span>,
-                                <span className="font-semibold"> TypeScript</span>,
-                                <span className="font-semibold"> Tailwind</span>,
-                                <span className="font-semibold"> Node.js + Express</span> e <span className="font-semibold">MySQL</span>. Amo in particolare il
+                                Amo in particolare il
                                 <span className="font-semibold text-pink-200"> FrontEnd</span>, dove posso mettere a frutto la mia esperienza in UX/UI design
                                 con <span className="font-semibold">Figma</span> e
                                 <span className="font-semibold"> Adobe</span>. Inoltre, posso realizzare siti
