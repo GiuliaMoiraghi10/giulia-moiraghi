@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/giulia-moiraghi/">
         <Routes>
           <Route element={<DefaultLayout />}>
             <Route path='/' element={<HomePage />} ></Route>
