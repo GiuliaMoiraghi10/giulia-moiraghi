@@ -46,7 +46,7 @@ export default function HomePage() {
                                     I miei Progetti
                                 </motion.button>
                                 <motion.a
-                                    href="/public/CVGiuliaMoiraghi.pdf"
+                                    href="/CVGiuliaMoiraghi.pdf"
                                     download="CVGiuliaMoiraghi.pdf"
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
