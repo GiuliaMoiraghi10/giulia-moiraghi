@@ -67,7 +67,7 @@ export default function AboutPage() {
                                 con WordPress e plugin come Elementor.
                             </p>
                             <hr />
-                            <p>
+                            <p className="text-2xl font-extrabold leading-tight">
                                 Ogni progetto è per me l’occasione di dare vita a interfacce
                                 <span className="italic"> moderne</span>,
                                 <span className="italic"> accessibili</span> e
@@ -108,28 +108,111 @@ export default function AboutPage() {
                     <hr />
                     <h3 className="mb-2 mt-10 text-xl font-semibold">☑️ Graphic</h3>
                     <div className="flex justify-center items-center gap-10 mt-2 bg-white/20 p-4 rounded-xl shadow-lg flex-wrap">
-                        <img className='w-10' src={illustrator} alt="" />
-                        <img className='w-10' src={photoshop} alt="" />
-                        <img className='w-10' src={indesign} alt="" />
-                        <img className='w-10' src={corel} alt="" />
-                        <img className='w-10' src={premiere} alt="" />
-                        <img className='w-10' src={figma} alt="" />
+
+                        {/* Gruppo 1: Illustratore */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={illustrator} alt="Illustrator" />
+                            <span className="text-sm text-white/90">Illustrator</span>
+                        </div>
+
+                        {/* Gruppo 2: Photoshop */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={photoshop} alt="Photoshop" />
+                            <span className="text-sm text-white/90">Photoshop</span>
+                        </div>
+
+                        {/* Gruppo 3: Indesign */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={indesign} alt="Indesign" />
+                            <span className="text-sm text-white/90">Indesign</span>
+                        </div>
+
+                        {/* Gruppo 4: Corel */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={corel} alt="Corel" />
+                            <span className="text-sm text-white/90">Corel Draw</span>
+                        </div>
+
+                        {/* Gruppo 5: Premiere */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={premiere} alt="Premiere Pro" />
+                            <span className="text-sm text-white/90">Premiere Pro</span>
+                        </div>
+
+                        {/* Gruppo 6: Figma */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={figma} alt="Figma" />
+                            <span className="text-sm text-white/90">Figma</span>
+                        </div>
+
                     </div>
                     <h3 className="mb-2 mt-10 text-xl font-semibold">☑️ Web Developer</h3>
                     <div className="flex justify-center items-center gap-10 mt-4 bg-white/20 p-4 rounded-xl shadow-lg flex-wrap">
-                        <img className='w-10' src={html} alt="" />
-                        <img className='w-10' src={css} alt="" />
-                        <img className='w-10' src={js} alt="" />
-                        <img className='w-10' src={physics} alt="" />
-                        <img className='w-10' src={bootstrap} alt="" />
-                        <img className='w-10' src={tailwind} alt="" />
-                        <img className='w-10' src={nodejs} alt="" />
-                        <img className='w-10' src={mysql} alt="" />
+
+                        {/* HTML */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={html} alt="HTML" />
+                            <span className="text-sm text-white/90">HTML</span>
+                        </div>
+
+                        {/* CSS */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={css} alt="CSS" />
+                            <span className="text-sm text-white/90">CSS</span>
+                        </div>
+
+                        {/* JavaScript */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={js} alt="JavaScript" />
+                            <span className="text-sm text-white/90">JavaScript</span>
+                        </div>
+
+                        {/* React */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={physics} alt="React" />
+                            <span className="text-sm text-white/90">React</span>
+                        </div>
+
+                        {/* Bootstrap */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-12' src={bootstrap} alt="Bootstrap" />
+                            <span className="text-sm text-white/90">Bootstrap</span>
+                        </div>
+
+                        {/* Tailwind */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={tailwind} alt="Tailwind CSS" />
+                            <span className="text-sm text-white/90">Tailwind</span>
+                        </div>
+
+                        {/* Node.js */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={nodejs} alt="Node.js" />
+                            <span className="text-sm text-white/90">Node.js</span>
+                        </div>
+
+                        {/* MySQL */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={mysql} alt="MySQL" />
+                            <span className="text-sm text-white/90">MySQL</span>
+                        </div>
+
                     </div>
                     <h3 className="mb-2 mt-10 text-xl font-semibold">☑️ CMS</h3>
                     <div className="flex justify-center items-center gap-10 mt-4 bg-white/20 p-4 rounded-xl shadow-lg flex-wrap">
-                        <img className='w-10' src={wordpress} alt="" />
-                        <img className='w-10' src={elementor} alt="" />
+
+                        {/* WordPress */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={wordpress} alt="WordPress" />
+                            <span className="text-sm text-white/90">WordPress</span>
+                        </div>
+
+                        {/* Elementor */}
+                        <div className="flex flex-col items-center gap-2">
+                            <img className='w-10' src={elementor} alt="Elementor" />
+                            <span className="text-sm text-white/90">Elementor</span>
+                        </div>
+
                     </div>
                 </div>
             </section>
