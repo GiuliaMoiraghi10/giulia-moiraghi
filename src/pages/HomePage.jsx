@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import logowhite from "../assets/Mio Logo_white.png";
 import { FaLaptopCode, FaMobileAlt, FaPalette, FaRocket } from 'react-icons/fa';
 import Header from "../layout/Header";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
     return (
@@ -33,9 +34,10 @@ export default function HomePage() {
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
                                     className="cursor-pointer px-8 py-3 bg-pink-400 text-white font-semibold rounded-full shadow-lg hover:bg-pink-500 transition-colors"
-                                    onClick={() => window.location.href = '/portfolio'}
                                 >
-                                    I miei Progetti
+                                    <Link to="/portfolio" className="no-underline text-white">
+                                        I miei Progetti
+                                    </Link>
                                 </motion.button>
                                 <motion.button
                                     whileHover={{ scale: 1.05 }}
