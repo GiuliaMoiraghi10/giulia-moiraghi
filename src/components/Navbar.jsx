@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <nav className="w-full py-4">
+        <nav className="w-full py-8">
             <ul className="flex justify-center items-center gap-8 flex-wrap">
                 <li>
                     <NavLink
