@@ -16,6 +16,7 @@ import premiere from '../assets/premiere.png';
 import wordpress from '../assets/wordpress.png';
 import tailwind from '../assets/tailwind.png';
 import bootstrap from '../assets/bootstrap.png';
+import giulia from '../assets/giulia.png'
 
 
 export default function AboutPage() {
@@ -31,7 +32,7 @@ export default function AboutPage() {
                         className="space-y-8"
                     >
                         <h1 className="text-5xl font-extrabold leading-tight">
-                            Chi è <span className="text-pink-200">Giulia</span>
+                            Chi è <span className="text-pink-400">Giulia</span>
                         </h1>
 
                         <div className="space-y-6 text-white/90 leading-relaxed text-lg">
@@ -83,9 +84,9 @@ export default function AboutPage() {
                         className="flex justify-center lg:justify-end"
                     >
                         <motion.img
-                            src={logowhite}
+                            src={giulia}
                             alt="Logo Giulia"
-                            className="w-156 lg:w-172 drop-shadow-[0_0_25px_rgba(255,255,255,0.7)]"
+                            className="rounded-xl w-156 lg:w-172 drop-shadow-[0_0_25px_rgba(255,255,255,0.7)]"
                             animate={{
                                 y: [0, -10, 0],
                             }}

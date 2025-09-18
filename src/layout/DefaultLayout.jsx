@@ -1,11 +1,13 @@
 import Header from './Header'
 import Footer from './Footer'
 import { Outlet } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 
 export default function DefaultLayout() {
     return (
         <section>
-            <Header />
+            <Navbar />
+            {/* <Header /> */}
             <main>
                 <Outlet />
             </main>
