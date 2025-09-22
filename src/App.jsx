@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename='/'>
+      <BrowserRouter>
         <Routes>
           <Route element={<DefaultLayout />}>
             <Route path='/' element={<HomePage />} ></Route>
