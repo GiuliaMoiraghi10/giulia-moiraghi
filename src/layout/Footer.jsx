@@ -33,7 +33,7 @@ export default function Footer() {
 
     return (
         <footer className="h-15 bg-[#EAB899] fixed bottom-0 left-0 w-full flex justify-between items-center px-8">
-            <div className='text-white'>Sito Portfolio di Giulia Moiraghi</div>
+            <div className='text-white'>Sito Portfolio di Giulia Moiraghi <span className='text-white opacity-70 text-sm'>(realizzato da me con React)</span></div>
 
             {/* L'icona che ti riporta in cima, mostrata solo se showArrow è true */}
             {showArrow && (
