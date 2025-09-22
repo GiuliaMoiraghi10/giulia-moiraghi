@@ -121,7 +121,8 @@ export const projects = [
         title: "BoolBnb",
         image: boolbnbimage,
         type: "image",
-        video: boolbnbvideo
+        video: boolbnbvideo,
+        description: "Progetto finale realizzato in team alla fine del percorso formativo presso Boolean. Questa web app è stata realizzata in due settimane e insieme abbiamo creato un sito di ricerca per affitto immobili chiamato Boolbnb. Tra le varie funzionalità implementate troviamo: ricerca tramite filtri dell'immobile desiderato, la possibilità di visionare tutti gli immobili presenti nel database, possibilità di caricare un nuovo immobile, lasciare recensioni e like e possibilità di contattare l'host. Progetto finale realizzato in team alla fine del percorso formativo presso Boolean. Questa web app è stata realizzata in due settimane e insieme abbiamo creato un sito di ricerca per affitto immobili chiamato Boolbnb. Tra le varie funzionalità implementate troviamo: ricerca tramite filtri dell'immobile desiderato, la possibilità di visionare tutti gli immobili presenti nel database, possibilità di caricare un nuovo immobile, lasciare recensioni e like e possibilità di contattare l'host. Competenze: React.js · Node.js · Express · MySQL"
     },
     {
         id: 15,
@@ -129,7 +130,8 @@ export const projects = [
         title: "Juicy",
         image: juicyimage,
         type: "image",
-        video: juicyvideo
+        video: juicyvideo,
+        description: "Ho progettato un e-commerce di succhi di frutta con Figma, puntando su un design fresco e armonioso. Ho scelto una palette di colori pastello per trasmettere leggerezza e benessere, integrando transizioni fluide per un’esperienza di navigazione moderna ed elegante. Competenze: Figma · Photoshop · Graphic Design · UX/UI"
     },
     {
         id: 16,
@@ -137,7 +139,8 @@ export const projects = [
         title: "Spa Sailor",
         image: spasailorimage,
         type: "image",
-        video: spasailorvideo
+        video: spasailorvideo,
+        description: "Ho sviluppato una SPA in React ispirata a Sailor Moon, pensata per esplorare personaggi, oggetti e trasformazioni della serie. L’app consente ricerca, filtri, ordinamento alfabetico, schede di dettaglio e confronto tra elementi. È possibile salvare preferiti, rendendo l’esperienza personalizzata, fluida e in linea con lo stile dell’anime. Competenze: HTML5 · CSS · React.js · Tailwind · Front-end"
     },
     {
         id: 17,
@@ -145,6 +148,7 @@ export const projects = [
         title: "Task Manager",
         image: taskmanagerimage,
         type: "image",
-        video: taskmanagervideo
+        video: taskmanagervideo,
+        description: "Ho creato un Task Manager web che permette di gestire attività in modo semplice ed efficiente. Include filtri avanzati, ricerca ottimizzata, ordinamenti personalizzati e conferme tramite modali per azioni critiche. L’interfaccia curata e le prestazioni ottimizzate garantiscono un utilizzo fluido e professionale. Competenze: HTML5 · CSS · React.js · Tailwind · Front-end"
     },
 ];
