@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
-// import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { HashRouter as BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import { HashRouter as BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ProjectPage from './pages/ProjectPage'
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
         <Routes>
           <Route element={<DefaultLayout />}>
             <Route path='/' element={<HomePage />} ></Route>
