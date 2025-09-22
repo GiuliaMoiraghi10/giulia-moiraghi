@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sito non trovato</title>
+    <script>
+        // Funzione per reindirizzare alla home, mantenendo il percorso
+        (function () {
+            var path = window.location.pathname;
+            if (path !== '/') {
+                window.location.replace('/index.html' + window.location.search + '#' + path);
+            }
+        })();
+    </script>
+</head>
+
+<body>
+    <h1>Errore 404 - Pagina non trovata</h1>
+    <p>La pagina che stai cercando non esiste.</p>
+    <a href="/index.html">Torna alla Home</a>
+</body>
+
+</html>
