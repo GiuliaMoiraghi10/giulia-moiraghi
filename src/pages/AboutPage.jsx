@@ -46,22 +46,22 @@ export default function AboutPage() {
                             </p>
                             <hr />
                             <p>
-                                Con più di <span className="font-semibold text-pink-200">10 anni di esperienza</span> nel
+                                Con più di <span className="font-semibold text-pink-400">10 anni di esperienza</span> nel
                                 <span className="font-semibold"> Graphic Design</span> e un forte focus
-                                negli ultimi anni su <span className="font-semibold text-pink-200">Web Design UX/UI</span>, ho affinato un approccio che combina creatività e
+                                negli ultimi anni su <span className="font-semibold text-pink-400">Web Design UX/UI</span>, ho affinato un approccio che combina creatività e
                                 metodo.
                             </p>
 
                             <p>
                                 Recentemente ho completato il percorso intensivo di
-                                <span className="font-semibold text-pink-200"> Full-Stack Web Development</span> presso Boolean, realizzando progetti completi che
+                                <span className="font-semibold text-pink-400"> Full-Stack Web Development</span> presso Boolean, realizzando progetti completi che
                                 integrano codice solido e una cura particolare per l’esperienza
                                 utente.
                             </p>
 
                             <p>
                                 Amo in particolare il
-                                <span className="font-semibold text-pink-200"> FrontEnd</span>, dove posso mettere a frutto la mia esperienza in UX/UI design
+                                <span className="font-semibold text-pink-400"> FrontEnd</span>, dove posso mettere a frutto la mia esperienza in UX/UI design
                                 con <span className="font-semibold">Figma</span> e
                                 <span className="font-semibold"> Adobe</span>. Inoltre, posso realizzare siti
                                 con WordPress e plugin come Elementor.
