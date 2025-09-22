@@ -95,7 +95,7 @@ export default function HomePage() {
                         transition={{ duration: 0.8 }}
                         className="text-center mb-16 space-y-4"
                     >
-                        <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight text-white">I miei <span className="text-pink-400">Servizi</span></h2>
+                        <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight text-white">Cosa <span className="text-pink-400">so fare?</span></h2>
                         <p className="text-lg text-white max-w-3xl mx-auto">
                             Aiuto a dare vita alle tue idee, combinando estetica e funzionalità per risultati che lasciano il segno.
                         </p>

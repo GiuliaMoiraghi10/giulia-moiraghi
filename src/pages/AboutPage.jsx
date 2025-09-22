@@ -98,6 +98,15 @@ export default function AboutPage() {
                             }}
                         />
                     </motion.div>
+                    <motion.a
+                        href="/CVGiuliaMoiraghi.pdf"
+                        download="CVGiuliaMoiraghi.pdf"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="cursor-pointer px-8 py-3 border-2 border-pink-400 text-white font-semibold rounded-full hover:bg-pink-500 hover:text-white transition-colors text-center"
+                    >
+                        Scarica il mio CV
+                    </motion.a>
                 </div>
             </section>
             <section className="min-h-80 text-white px-8 py-3 pb-25 flex items-center justify-center bg-gradient-to-b from-black/50 to-black/90">
