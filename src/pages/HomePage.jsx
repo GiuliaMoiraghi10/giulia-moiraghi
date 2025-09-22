@@ -104,7 +104,7 @@ export default function HomePage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {/* Card Servizio 1: UI/UX Design */}
                         <motion.div
-                            initial={{ opacity: 0, y: 50 }}
+                            initial={false}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, amount: 0.2 }}
                             transition={{ duration: 0.6, delay: 0.1 }}
