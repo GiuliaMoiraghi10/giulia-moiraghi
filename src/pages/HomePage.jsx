@@ -12,6 +12,8 @@ export default function HomePage() {
         navigate('/portfolio');
     };
 
+    const isMobile = window.innerWidth < 768;
+
     return (
         <>
             <Header />
@@ -104,10 +106,10 @@ export default function HomePage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {/* Card Servizio 1: UI/UX Design */}
                         <motion.div
-                            initial={false}
+                            initial={isMobile ? false : { opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 0.6, delay: 0.1 }}
+                            transition={isMobile ? { duration: 0 } : { duration: 0.6, delay: 0.1 }}
                             className="bg-white p-8 rounded-xl shadow-lg border border-pink-400/20 hover:border-pink-400 border-5 transition-all duration-300 flex flex-col items-center text-center space-y-4"
                         >
                             <FaPalette className="text-pink-400 text-5xl" />
@@ -117,10 +119,10 @@ export default function HomePage() {
 
                         {/* Card Servizio 2: Web Design & Development */}
                         <motion.div
-                            initial={{ opacity: 0, y: 50 }}
+                            initial={isMobile ? false : { opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 0.6, delay: 0.2 }}
+                            transition={isMobile ? { duration: 0 } : { duration: 0.6, delay: 0.1 }}
                             className="bg-white p-8 rounded-xl shadow-lg border border-pink-400/20 hover:border-pink-400 border-5 transition-all duration-300 flex flex-col items-center text-center space-y-4"
                         >
                             <FaLaptopCode className="text-pink-400 text-5xl" />
@@ -130,10 +132,10 @@ export default function HomePage() {
 
                         {/* Card Servizio 3: Mobile App Design */}
                         <motion.div
-                            initial={{ opacity: 0, y: 50 }}
+                            initial={isMobile ? false : { opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 0.6, delay: 0.3 }}
+                            transition={isMobile ? { duration: 0 } : { duration: 0.6, delay: 0.1 }}
                             className="bg-white p-8 rounded-xl shadow-lg border border-pink-400/20 hover:border-pink-400 border-5 transition-all duration-300 flex flex-col items-center text-center space-y-4"
                         >
                             <FaMobileAlt className="text-pink-400 text-5xl" />
@@ -143,10 +145,10 @@ export default function HomePage() {
 
                         {/* Card Servizio 4: Illustrazioni Digitali / Motion Graphics */}
                         <motion.div
-                            initial={{ opacity: 0, y: 50 }}
+                            initial={isMobile ? false : { opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, amount: 0.2 }}
-                            transition={{ duration: 0.6, delay: 0.4 }}
+                            transition={isMobile ? { duration: 0 } : { duration: 0.6, delay: 0.1 }}
                             className="bg-white p-8 rounded-xl shadow-lg border border-pink-400/20 hover:border-pink-400 border-5 transition-all duration-300 flex flex-col items-center text-center space-y-4"
                         >
                             <FaRocket className="text-pink-400 text-5xl" />
