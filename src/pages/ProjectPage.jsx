@@ -25,10 +25,11 @@ export default function ProjectPage() {
                     <p className='pt-3 font-style: italic text-2xl text-white font-bold'>Tra poco arriva...</p>
                 </div>
                 <img className={styles.heroImg} src={work} alt="Giulia" />
+            </div >
             </div > */}
             <div className="container mx-auto py-10">
                 <h1 className="text-5xl font-extrabold text-pink-400 mb-8">Portfolio</h1>
-                <section className="text-gray-900 homepage-gradient-bg w-full overflow-x-hidden">
+                <section>
                     <h2 className="text-3xl font-bold text-white mb-4">Web</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {webProjects.map(project => (

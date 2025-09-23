@@ -58,7 +58,7 @@ export default function ProjectDetails() {
                         </p>
                     )}
                 </div>
-                <div className="flex justify-center mt-10">
+                <div className="flex justify-center mt-10 mb-8">
                     <button
                         onClick={() => navigate(-1)}
                         className="px-8 py-3 bg-pink-400 text-white font-semibold rounded-full shadow-lg hover:bg-pink-500 transition-colors cursor-pointer"
