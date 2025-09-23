@@ -109,7 +109,7 @@ export default function AboutPage() {
                     </motion.a>
                 </div>
             </section>
-            <section className="min-h-80 text-white px-8 py-3 pb-25 flex items-center justify-center bg-gradient-to-b from-black/50 to-black/90">
+            <section className="min-w-screen min-h-80 text-white px-8 py-3 pb-25 flex items-center justify-center bg-gradient-to-b from-black/50 to-black/90">
                 <div>
                     <h2 className="text-3xl font-extrabold leading-tight py-8 text-center">
                         <span className="text-pink-200">Competenze</span>
