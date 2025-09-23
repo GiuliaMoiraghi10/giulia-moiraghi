@@ -23,7 +23,7 @@ import giuliaseduta from '../assets/giuliaseduta.png'
 export default function AboutPage() {
     return (
         <>
-            <section className="min-h-80 text-white px-8 py-10 pb-25 flex items-center justify-center">
+            <section className="min-h-screen text-gray-900 pb-25 homepage-gradient-bg w-full overflow-x-hidden">
                 <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
                     {/* Testo */}
                     <motion.div

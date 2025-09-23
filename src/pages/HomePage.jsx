@@ -89,7 +89,7 @@ export default function HomePage() {
                 </div>
 
                 {/* Sezione Servizi */}
-                <div className="container min-w-screen p-10 lg:py-10 bg-gradient-to-b from-black/50 to-black/90">
+                <div className="container min-full p-10 lg:py-10 bg-gradient-to-b from-black/50 to-black/90">
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
